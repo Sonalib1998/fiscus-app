@@ -1,0 +1,44 @@
+   .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #dddddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination-button:hover,
+  .pagination-button.active {
+    background-color: #2A3958;
+    color: white;
+  }
+  
